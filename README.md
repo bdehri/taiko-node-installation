@@ -14,6 +14,12 @@ export L1_PROVER_PRIVATE_KEY=
 curl -o install.sh https://raw.githubusercontent.com/bdehri/taiko-node-installation/main/install.sh
 ```
 
+* Scripti makinamıza indirdikten sonra yetkilerini ayarlıyoruz.
+
+```
+chmod 777 install.sh
+```
+
 * Son olarak scripti aşağıdaki gibi çalıştırıyoruz.
 
 ```
